@@ -1,0 +1,48 @@
+.delivery-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .delivery-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .delivery-item p {
+    margin: 5px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .button-group {
+      flex-direction: column;
+    }
+  
+    .button {
+      width: 100%;
+      box-sizing: border-box; /* Ensures padding doesn't add to the button's width */
+    }
+  }
+  

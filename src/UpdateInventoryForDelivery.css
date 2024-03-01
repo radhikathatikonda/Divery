@@ -1,0 +1,35 @@
+.update-inventory {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-inventory .search-form,
+  .update-inventory .update-form {
+    margin-bottom: 20px;
+  }
+  
+  .update-inventory input[type="text"],
+  .update-inventory input[type="number"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-inventory button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-inventory button:hover {
+    background-color: #0056b3;
+  }
+  

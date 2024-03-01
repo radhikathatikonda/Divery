@@ -1,0 +1,51 @@
+.pending-deliveries {
+    padding: 20px;
+  }
+  
+  .pending-deliveries h2 {
+    margin-bottom: 20px;
+  }
+  
+  .pending-deliveries ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pending-deliveries .delivery-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .pending-deliveries .delivery-item p {
+    margin: 5px 0;
+  }
+  
+  .pending-deliveries .actions {
+    margin-top: 10px;
+  }
+  
+  .pending-deliveries .actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pending-deliveries .actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .pending-deliveries .actions button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

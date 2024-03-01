@@ -1,0 +1,27 @@
+/* InventoryDashboard.css */
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  h1{
+    align-items: center;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffc107;
+  }
+  
+  nav a.active {
+    color: red;
+  }
+  
